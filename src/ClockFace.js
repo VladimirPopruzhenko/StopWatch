@@ -14,7 +14,6 @@ export default class ClockFace extends Component {
         this.state.seconds = newState
     }
     giveTimeSec(sec) {
-
         let seconds = sec % 60;
         if (seconds >= 60) { return 0 }
         else { return seconds }; 
